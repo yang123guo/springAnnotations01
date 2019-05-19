@@ -18,6 +18,7 @@ public class Test {
             System.out.println("name是：" + name);
         }
 
+        // 此时括号里面第一个参数就是 @Component里面的命名
         Demo demo = ac.getBean("demo", Demo.class);
         demo.getName();
     }
