@@ -9,4 +9,7 @@
 
     <!-- xmlns:context 和下面的http``` context为注解使用 -->
 
+    <!-- 扫描哪个包 找到组件（类） -->
+    <context:component-scan base-package="com.faith.annotation,com.faith.test"></context:component-scan>
+
 </beans>
